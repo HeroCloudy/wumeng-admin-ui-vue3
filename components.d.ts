@@ -17,6 +17,5 @@ declare module 'vue' {
     WmLayout: typeof import('./src/components/layout/wm-layout.vue')['default']
     WmLayoutHeader: typeof import('./src/components/layout/wm-layout-header.vue')['default']
     WmLayoutSidebar: typeof import('./src/components/layout/wm-layout-sidebar.vue')['default']
-    WuLayoutSidebar: typeof import('./src/components/layout/wu-layout-sidebar.vue')['default']
   }
 }
