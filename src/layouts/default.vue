@@ -1,14 +1,9 @@
 <template>
-  <div>
-    <header>
-      <router-link to="/" class="item">home</router-link>
-      <router-link to="/demo" class="item">demo</router-link>
-    </header>
-    <router-view></router-view>
-  </div>
+  <wm-layout></wm-layout>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style scoped lang="scss">
 .item {
