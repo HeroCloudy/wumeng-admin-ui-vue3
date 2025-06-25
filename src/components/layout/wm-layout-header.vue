@@ -5,7 +5,11 @@
  @time: 2025/6/21 11:23
 -->
 <template>
-  <div class="wm-layout-header">wm-layout-header</div>
+  <header class="wm-layout-header">
+    <wm-logo />
+
+    <div class="flex-1"></div>
+  </header>
 </template>
 
 <script setup lang="ts">
@@ -15,5 +19,7 @@ defineProps<{
 </script>
 <style scoped>
 .wm-layout-header {
+  @apply h-[var(--wm-layout-header-height)] bg-white flex items-center justify-center px-20px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 </style>

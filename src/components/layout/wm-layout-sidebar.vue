@@ -13,7 +13,9 @@ defineProps<{
   p?: string
 }>()
 </script>
-<style scoped>
+<style scoped lang="scss">
 .wm-layout-sidebar {
+  @apply w-[var(--wm-sidebar-width-default)] bg-white;
+  box-shadow: 2px 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 </style>

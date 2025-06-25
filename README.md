@@ -1,7 +1,15 @@
 # wumeng-admin-ui-vue3 Vue3通用权限后台管理系统
 
-- 程序员优雅哥 youyacoder wumeng(乌蒙，优雅哥家乡乌蒙高原、乌蒙山)系列。
+<p style="text-align: center">
+<img src="./public/logo.png" style="width:200px;" />
+</p>
+<h1 style="text-align: center">wumeng-admin-ui-vue3</h1>
+<p style="text-align: center; font-size: 16px; font-weight: bold">
+Vue3通用权限后台管理系统
+</p>
+程序员优雅哥 youyacoder wumeng(乌蒙，优雅哥家乡乌蒙高原、乌蒙山)系列。
 
+## Features
 - 整合了 TypeScript、Vue Router、Pinia、UnoCSS、SCSS、ESLint、Prettier、unplugin-vue-router、vite-plugin-vue-layouts、unplugin-auto-import、unplugin-vue-components、vueuse。
 
 - 最简代码模版，开箱即用，支持自动路由、全局布局、自动导入、组件自动注册。

@@ -11,11 +11,13 @@ declare module 'vue' {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElConfigProvider: typeof import('element-plus/es')['ElConfigProvider']
     ElDatePicker: typeof import('element-plus/es')['ElDatePicker']
+    ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
     HelloWorld: typeof import('./src/components/hello-world.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     WmLayout: typeof import('./src/components/layout/wm-layout.vue')['default']
     WmLayoutHeader: typeof import('./src/components/layout/wm-layout-header.vue')['default']
     WmLayoutSidebar: typeof import('./src/components/layout/wm-layout-sidebar.vue')['default']
+    WmLogo: typeof import('./src/components/layout/wm-logo.vue')['default']
   }
 }
