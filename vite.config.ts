@@ -41,7 +41,7 @@ export default defineConfig({
     }),
     Components({
       deep: true,
-      directoryAsNamespace: false,
+      directoryAsNamespace: true,
       resolvers: [ElementPlusResolver()],
     }),
     vueDevTools(),

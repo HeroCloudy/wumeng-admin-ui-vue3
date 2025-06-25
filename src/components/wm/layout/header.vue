@@ -6,7 +6,7 @@
 -->
 <template>
   <header class="wm-layout-header">
-    <wm-logo />
+    <wm-layout-logo />
 
     <div class="flex-1"></div>
   </header>

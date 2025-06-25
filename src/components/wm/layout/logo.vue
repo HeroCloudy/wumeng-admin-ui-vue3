@@ -7,7 +7,7 @@
 <template>
   <div class="wm-logo">
     <div class="logo">
-      <img src="@/assets/imgs/logo.png" />
+      <img src="../../../assets/imgs/logo.png" />
     </div>
     <div class="name">WuMeng Admin</div>
   </div>
